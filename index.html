@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        
+        .container{
+            width: 700px;
+            margin: auto;
+        }
+
+        .loader{
+            display: none;
+            font-size: 20px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .card{
+            padding: 10px;
+            border: 2px solid black;
+            margin: 10px;
+            float: left;
+        }
+        .desc{
+            width: 500px;
+            height:  130px;
+            border: 1px solid red;
+            background-color: aquamarine;
+            padding: 5px;
+            margin: auto;
+            margin-top: 20px;
+            margin-left: 50px;
+            display: block;
+            position: fixed;
+            z-index: 1;
+        }
+        .desc .close{
+            margin: 0px;
+            position: fixed;
+            z-index: 2;
+        }
+        .desc p{
+            padding: 5px;
+            margin: 30px;
+        }
+        .countNumber{
+            display: inline-block;
+            padding-top: 5px;
+            padding-left: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="loader">Loading ...</div>
+    </header>
+<button class="countNumber">1</button>
+<button class="countNumber">2</button>
+<button class="countNumber">3</button>
+<button class="countNumber">4</button>
+<button class="countNumber">5</button>
+<button class="countNumber">6</button>
+<button class="countNumber">7</button>
+<button class="countNumber">8</button>
+<button class="countNumber">9</button>
+<button class="countNumber">10</button>
+<!-- <button class="countNumber">11</button> -->
+
+    <div class="container">
+        <!-- <div class="card" id="card-0">
+            <img src="http://placehold.it/100x100" alt="">
+            <div class="contact-details">
+                <h3 class="title">Card Title</h3>
+                <br>
+                <button>Read More</button>
+            </div>
+        </div> -->
+    </div>
+    <div class="info">
+        <!-- <div class="desc">
+            <button class="close">Close</button>
+            <p></p>
+        </div> -->
+    </div>
+
+    
+    <script src="jquery.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
